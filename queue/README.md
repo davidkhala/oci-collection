@@ -3,6 +3,7 @@
 ## [Use STOMP](https://docs.oracle.com/en-us/iaas/Content/queue/messages-stomp.htm)
 - supports STOMP specifications 1.0, 1.1, and 1.2
 - port `61613`
+- Authentication: uses authentication tokens. It refers to [OCI IAM Auth Token](https://docs.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcredentials.htm#Working)
 
 Limit
 - Does not support transactions (STOMP frames `BEGIN/COMMIT/ABORT`)
